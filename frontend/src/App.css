@@ -1,0 +1,61 @@
+.task-form {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1.5fr auto;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.task-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-left: 4px solid #38bdf8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.task-card h3 {
+  color: #22c55e;
+  margin-bottom: 5px;
+}
+
+.task-card p {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* Status */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.pending {
+  background: #7c2d12;
+  color: #fde68a;
+}
+
+.completed {
+  background: #064e3b;
+  color: #6ee7b7;
+}
+
+/* Filters */
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-bar button {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.filter-bar button:hover {
+  background: #38bdf8;
+  color: #020617;
+}
